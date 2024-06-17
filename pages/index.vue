@@ -2,7 +2,6 @@
   <div>
 <navigate/>
 <hero/>
-
 <div>
   <second-hero/>
 </div>
