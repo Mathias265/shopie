@@ -7,7 +7,7 @@
         <img
           src="../assets/img/new3.jpeg"
           alt=""
-          class="max-w-96  lg:size-4/5 md:size-4/5 align-middle"
+          class="max-w-96 size-4/5 lg:size-4/5 md:size-4/5 align-middle"
         />
       </div>
       <div class="">
