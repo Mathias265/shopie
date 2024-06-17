@@ -38,7 +38,7 @@
             <li><NuxtLink to="/" class="text-black hover:text-orange-300 block py-2 px-4 hover:bg-blue-500 hover:text-white">Blog Post</NuxtLink></li>
             <li><NuxtLink to="/" class="text-black hover:text-orange-300 block py-2 px-4 hover:bg-blue-500 hover:text-white">Contacts</NuxtLink></li>
             <li><UButton block class="mb-3" color="blue">Sign-Up</UButton></li>
-            <li><UButton block color="blue" variant="outline">Login</UButton></li>
+            <li><UButton block color="blue" variant="outline" @click="enter()">Login</UButton></li>
         </ul>
       </div>
       </transition>
