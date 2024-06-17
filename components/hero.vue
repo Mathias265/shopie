@@ -14,7 +14,11 @@
 </template>
 
 <script setup>
+const router = useRouter();
 //class="w-64 h-64" 
+function worked(){
+    router.push('/pages/verified')
+}
 </script>
 
 <style lang="scss" scoped>
