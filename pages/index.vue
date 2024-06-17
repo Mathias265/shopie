@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full">
+  <div class="w-full flex-col">
 <navigate/>
 <hero/>
 <div>
