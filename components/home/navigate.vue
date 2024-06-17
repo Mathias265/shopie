@@ -25,7 +25,7 @@
       <transition name="slide-fade">
         <div v-if="isOpen" class="md:hidden z-10 absolute top-20 left-0 right-0">
         <ul class="bg-white ">
-          <li><NuxtLink to="/" class="text-black hover:text-orange-300 block py-2 px-4 hover:bg-blue-500 hover:text-white">Home</NuxtLink></li>
+          <li><NuxtLink to="/verified" class="text-black hover:text-orange-300 block py-2 px-4 hover:bg-blue-500 hover:text-white">Home</NuxtLink></li>
             <li><NuxtLink to="/" class="text-black hover:text-orange-300 block py-2 px-4 hover:bg-blue-500 hover:text-white">Services</NuxtLink></li>
             <li><NuxtLink to="/about" class="text-black hover:text-orange-300 block py-2 px-4 hover:bg-blue-500 hover:text-white">About Us</NuxtLink></li>
             <li><NuxtLink to="/" class="text-black hover:text-orange-300 block py-2 px-4 hover:bg-blue-500 hover:text-white">Blog Post</NuxtLink></li>
