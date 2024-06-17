@@ -30,8 +30,7 @@
             <li><NuxtLink to="/about" class="text-black hover:text-orange-300 block py-2 px-4 hover:bg-blue-500 hover:text-white">About Us</NuxtLink></li>
             <li><NuxtLink to="/" class="text-black hover:text-orange-300 block py-2 px-4 hover:bg-blue-500 hover:text-white">Blog Post</NuxtLink></li>
             <li><NuxtLink to="/" class="text-black hover:text-orange-300 block py-2 px-4 hover:bg-blue-500 hover:text-white">Contacts</NuxtLink></li>
-            
-          <button class=" md:block btn-3d bg-gradient-to-r from-blue-400 to-blue-600 text-white font-bold py-1 px-6 rounded-lg shadow-lg hover:shadow-2xl focus:outline-none" @click="goHome()">log-out</button>
+          <li><button class=" md:block btn-3d bg-gradient-to-r from-blue-400 to-blue-600 text-white font-bold py-1 px-6 rounded-lg shadow-lg hover:shadow-2xl focus:outline-none" @click="goHome()">log-out</button></li>
             
         </ul>
       </div>
