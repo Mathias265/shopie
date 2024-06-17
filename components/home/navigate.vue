@@ -24,7 +24,6 @@
       </div>
       <transition name="slide-fade">
         <div v-if="isOpen" class="md:hidden z-10 absolute top-20 left-0 right-0">
-       
         <ul class="bg-white ">
           <li><NuxtLink to="/" class="text-black hover:text-orange-300 block py-2 px-4 hover:bg-blue-500 hover:text-white">Home</NuxtLink></li>
             <li><NuxtLink to="/" class="text-black hover:text-orange-300 block py-2 px-4 hover:bg-blue-500 hover:text-white">Services</NuxtLink></li>
@@ -32,7 +31,7 @@
             <li><NuxtLink to="/" class="text-black hover:text-orange-300 block py-2 px-4 hover:bg-blue-500 hover:text-white">Blog Post</NuxtLink></li>
             <li><NuxtLink to="/" class="text-black hover:text-orange-300 block py-2 px-4 hover:bg-blue-500 hover:text-white">Contacts</NuxtLink></li>
             
-          <button class="hidden md:block btn-3d bg-gradient-to-r from-blue-400 to-blue-600 text-white font-bold py-1 px-6 rounded-lg shadow-lg hover:shadow-2xl focus:outline-none" @click="goBack()">log-out</button>
+          <button class="hidden md:block btn-3d bg-gradient-to-r from-blue-400 to-blue-600 text-white font-bold py-1 px-6 rounded-lg shadow-lg hover:shadow-2xl focus:outline-none" @click="goHome()">log-out</button>
             
         </ul>
       </div>
@@ -50,6 +49,10 @@
 const router = useRouter();
 
 function goBack(){
+ router.back("/")
+  console.log("worked");
+}
+function goHome(){
  router.back("/")
   console.log("worked");
 }
