@@ -25,7 +25,7 @@
             </div>
             <button class=" bg-blue-400 py-1 px-4 text-white rounded-lg active:bg-blue-500" @click="addToCart">
               <span v-if="inCart()" class="font-mono">REMOVE FROM CART</span>
-              <span v-else class="font-mono">ADDTO CART</span>
+              <span v-else class="font-mono">ADD TO CART</span>
             </button>
           </div>
           <h3 class="font-semibold text-3xl mb-2 font-mono">Product details</h3>
